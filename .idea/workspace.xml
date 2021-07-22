@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d9fba34-6466-4f55-9197-53f84364612d" name="Default Changelist" comment="Initial commit from Create Next App">
-      <change afterPath="$PROJECT_DIR$/components/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useApi.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useUser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/404.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/500.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/dashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sign-up.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/verify/[user]/[hash].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/providers/ApiProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/providers/UserProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Login.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/components/Input.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/verify/[user]/[hash].module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/Credentials.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/User.ts" afterDir="false" />
+    <list default="true" id="6d9fba34-6466-4f55-9197-53f84364612d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RouteProtector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/forgot-password.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/reset-password.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/providers/AuthProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/ForgotPassword.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Loader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useApi.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useUser.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sign-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sign-up.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/verify/[user]/[hash].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/verify-email.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/providers/ApiProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/providers/ApiProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/providers/UserProvider.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/Credentials.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/LoginCredentials.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/User.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +48,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="1vayvJduLpR420s3xmXAiAQeYQw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,21 +60,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="ProjectLabel" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
     <property name="ts.external.directory.path" value="D:\sandercokart.com\V2\client-typescript\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\sandercokart.com\V2\client-typescript\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\sandercokart.com\V2\client-typescript\styles" />
       <recent name="D:\sandercokart.com\V2\client-typescript\pages" />
+      <recent name="D:\sandercokart.com\V2\client-typescript\styles" />
       <recent name="D:\sandercokart.com\V2\client-typescript\pages\login" />
     </key>
   </component>
@@ -138,7 +147,18 @@
       <updated>1626814725545</updated>
       <workItem from="1626814728285" duration="8220000" />
       <workItem from="1626892471547" duration="8350000" />
-      <workItem from="1626969173478" duration="6428000" />
+      <workItem from="1626969173478" duration="21884000" />
+      <workItem from="1626997369375" duration="552000" />
+      <workItem from="1626997970295" duration="18000" />
+      <workItem from="1626997998895" duration="3139000" />
+      <workItem from="1627051196495" duration="10378000" />
+      <workItem from="1627068894656" duration="5441000" />
+      <workItem from="1627087627482" duration="817000" />
+      <workItem from="1627158092985" duration="3884000" />
+      <workItem from="1627209165043" duration="2167000" />
+      <workItem from="1627221847104" duration="4132000" />
+      <workItem from="1627299904585" duration="10000" />
+      <workItem from="1627300705008" duration="518000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <created>1626814814969</created>
@@ -147,14 +167,159 @@
       <option name="project" value="LOCAL" />
       <updated>1626814814969</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="IDE stuff">
+      <created>1626980162262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980162262</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added redirects">
+      <created>1626980187906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980187906</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added axios and sass">
+      <created>1626980206738</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980206738</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added alias paths">
+      <created>1626980218308</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980218308</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lock file">
+      <created>1626980228685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980228685</updated>
+    </task>
+    <task id="LOCAL-00007" summary="deleted / renamed files">
+      <created>1626980289447</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980289447</updated>
+    </task>
+    <task id="LOCAL-00008" summary="custom error pages">
+      <created>1626980299798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980299798</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added global types">
+      <created>1626980323208</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980323208</updated>
+    </task>
+    <task id="LOCAL-00010" summary="created an API Provider">
+      <created>1626980341801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980341801</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Created a UserProvider">
+      <created>1626980359863</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980359863</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added providers to _app.tsx">
+      <created>1626980380234</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980380234</updated>
+    </task>
+    <task id="LOCAL-00013" summary="login and signup pages with custom input component">
+      <created>1626980429613</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980429613</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added email verification page">
+      <created>1626980450066</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980450066</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updated global css">
+      <created>1626980459376</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980459376</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added dashboard page">
+      <created>1626980467328</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980467328</updated>
+    </task>
+    <task id="LOCAL-00017" summary="IDE stuff">
+      <created>1626980475567</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1626980475567</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit from Create Next App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit from Create Next App" />
+    <MESSAGE value="added redirects" />
+    <MESSAGE value="added axios and sass" />
+    <MESSAGE value="added alias paths" />
+    <MESSAGE value="lock file" />
+    <MESSAGE value="deleted / renamed files" />
+    <MESSAGE value="custom error pages" />
+    <MESSAGE value="added global types" />
+    <MESSAGE value="created an API Provider" />
+    <MESSAGE value="Created a UserProvider" />
+    <MESSAGE value="added providers to _app.tsx" />
+    <MESSAGE value="login and signup pages with custom input component" />
+    <MESSAGE value="added email verification page" />
+    <MESSAGE value="updated global css" />
+    <MESSAGE value="added dashboard page" />
+    <MESSAGE value="IDE stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDE stuff" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
