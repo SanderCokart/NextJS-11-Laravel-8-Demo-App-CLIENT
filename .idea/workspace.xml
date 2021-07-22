@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d9fba34-6466-4f55-9197-53f84364612d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-label.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/dev.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="6d9fba34-6466-4f55-9197-53f84364612d" name="Default Changelist" comment="Initial commit from Create Next App">
+      <change afterPath="$PROJECT_DIR$/components/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useUser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/404.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/500.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/sign-up.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/verify/[user]/[hash].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/providers/ApiProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/providers/UserProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Login.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/components/Input.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/verify/[user]/[hash].module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/Credentials.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +36,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1vayvJduLpR420s3xmXAiAQeYQw" />
   <component name="ProjectViewState">
@@ -26,11 +54,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="settings.editor.selected.configurable" value="ProjectLabel" />
+    <property name="ts.external.directory.path" value="D:\sandercokart.com\V2\client-typescript\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sandercokart.com\V2\client-typescript\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sandercokart.com\V2\client-typescript\styles" />
+      <recent name="D:\sandercokart.com\V2\client-typescript\pages" />
+      <recent name="D:\sandercokart.com\V2\client-typescript\pages\login" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
@@ -96,11 +136,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626814725545</updated>
-      <workItem from="1626814728285" duration="57000" />
+      <workItem from="1626814728285" duration="8220000" />
+      <workItem from="1626892471547" duration="8350000" />
+      <workItem from="1626969173478" duration="6428000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit from Create Next App">
+      <created>1626814814969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626814814969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit from Create Next App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit from Create Next App" />
   </component>
 </project>
