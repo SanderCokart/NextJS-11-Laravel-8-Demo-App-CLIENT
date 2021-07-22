@@ -1,0 +1,29 @@
+.formControl {
+  label {
+    display: flex;
+    flex-direction: column;
+    color: #202731;
+    font-weight: 700;
+    font-size: 1.1rem;
+
+    div {
+      margin-left: 10px;
+    }
+
+    input {
+      font-size: 2rem;
+      padding: 8px;
+      border-radius: 25px;
+      outline: none;
+      background-color: #CABAAB;
+      color: #222;
+      font-weight: 700;
+      transition: box-shadow 250ms ease;
+
+      &:hover, &:active, &:focus {
+        box-shadow: #202731 0 .2em 0 0;
+      }
+    }
+  }
+}
+
