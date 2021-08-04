@@ -1,8 +1,9 @@
 import axios, {AxiosInstance} from 'axios';
-import {createContext, FC, useEffect, useState} from 'react';
+import {createContext, FC, useContext, useEffect, useState} from 'react';
 
 export const ApiContext = createContext({} as AxiosInstance);
 
+export const useApi = () => useContext(ApiContext);
 
 export const ApiProvider: FC = ({children}) => {
   const [loading, setLoading] = useState(true);
@@ -23,11 +24,11 @@ export const ApiProvider: FC = ({children}) => {
         });
   }, []);
 
-  return !loading ?
+  return (
       <ApiContext.Provider value={axiosInstance}>
         {children}
-      </ApiContext.Provider> : null;
-
+      </ApiContext.Provider>
+  );
 };
 
 

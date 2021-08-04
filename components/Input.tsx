@@ -1,4 +1,4 @@
-import styles from '@/s/components/Input.module.scss';
+import styles from '@/styles/components/Input.module.scss';
 
 
 export interface InputProps {
